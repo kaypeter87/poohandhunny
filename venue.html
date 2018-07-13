@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pooh &amp; Hunny</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/headhesive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="top">
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <header class="banner">
+      <nav class="container">
+          <h1 class="logo">Peter &amp; Lauren</h1>
+          <ul class="nav" id="navresponsive">
+              <li class="nav__item--btn"><a href="./index.html">Our Story</a>
+              <li class="nav__item--btn active"><a href="./venue.html">Venue</a>
+              <li class="nav__item--btn"><a href="./registry.html">Registry</a>
+              <li class="nav__item--btn"><a href="./photo.html">Photo</a>
+              <li class="nav__item--btn"><a href="./rsvp.html">RSVP</a>
+          </ul>
+      </nav>
+  </header>
+
+  <section class="herovenue">
+    <div class="container">
+        <h1 class="hero__titlevenue">Wedding Venue</h1>
+        <a id="showHere"></a>
+        <div class="map">  
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.642302017663!2d-73.76989424858668!3d41.033081025744586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c29436f8c838df%3A0x551af30ae41c8708!2sThe+Ritz-Carlton+New+York%2C+Westchester!5e0!3m2!1sen!2sus!4v1531105437169" width="1600" height="800" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+  </section>
+
+  <main role="main">
+      <div class="container">
+          <a href="http://www.ritzcarlton.com/en/hotels/new-york/westchester#Hotel" target="_blank"><h2>Ritz-Carlton, White Plains</h2></a>
+          <h5>3 Renaissance Square, White Plains, NY 10601</h5>
+          <p class="indent">We will be having our wedding at the beautiful Ritz-Carlton White Plains. Both ceremony and reception will be held at this location, so there will be less travelling and more celebrating!</p>
+          <a href="http://www.ritzcarlton.com/en/hotels/new-york/westchester#Hotel" target="_blank"><img class="ritz photohover" src="img/ritz.jpg" alt="3 Renaissance Square, White Plains, NY 10601"></a>
+          <h2 class="venuemargin">Special Room Rates</h2>
+          <p class="indent">We have secured a special rate at the hotel for all of our guests that will be attending our wedding. You can reserve our special rate by calling <b>1-888-241-3333</b> and mentioning our last names <b>'Choi &amp; Kay'</b> or by reserving online here using the <b>corporate/promotional code: CHKCHKA</b></p>
+          <img class="ritz" src="img/ritz2.jpg" alt="3 Renaissance Square, White Plains, NY 10601">
+      </div>
+  </main>
+
+  <footer>
+    <div class="container">
+        <p>Created by <a href="https://kaypeter.com" target="_blank">Peter Kay</a>, 2018</a><span class="top"><a href="#top">#top</a></span></p>
+    </div>
+  </footer>
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src ="node_modules/headhesive/dist/headhesive.js"></script>
+      <script>
+        // Set options
+        var options = {
+            offset: '#showHere',
+            offsetSide: 'top',
+            classes: {
+                clone:   'banner--clone',
+                stick:   'banner--stick',
+                unstick: 'banner--unstick'
+            }
+        };
+        // Initialise with options
+        var banner = new Headhesive('.banner', options);
+        // Headhesive destroy
+        // banner.destroy();
+    </script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>

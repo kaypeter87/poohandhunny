@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pooh &amp; Hunny</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/headhesive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="top">
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <header class="banner">
+      <nav class="container">
+          <h1 class="logo">Peter &amp; Lauren</h1>
+          <ul class="nav" id="navresponsive">
+              <li class="nav__item--btn"><a href="./index.html">Our Story</a>
+              <li class="nav__item--btn"><a href="./venue.html">Venue</a>
+              <li class="nav__item--btn"><a href="./registry.html">Registry</a>
+              <li class="nav__item--btn active"><a href="./photo.html">Photo</a>
+              <li class="nav__item--btn"><a href="./rsvp.html">RSVP</a>
+          </ul>
+      </nav>
+  </header>
+  <a id="showHere"></a>
+  <section class="herovenue">
+    <div class="container">
+        <h1 class="hero__titlevenue">Photo Album</h1>
+        
+      </div>
+  </section>
+
+  <main role="main">
+      <div class="container">
+
+          <h2>Engagement Shoot</h2>
+          <h3>photography by <a href="https://www.haseokchungstudio.com" target="_blank">Haseok Chung Studio</a></h3>
+          <p>Location: West Village - New York, NY</p>
+          <a href="./engagementphoto.html"><img src="./img/CHUN4670.jpg" class="photohover"></a>
+
+          <h2>More Coming Soon!</h2>
+      </div>
+  </main>
+
+  <footer>
+    <div class="container">
+        <p>Created by <a href="https://kaypeter.com" target="_blank">Peter Kay</a>, 2018</a><span class="top"><a href="#top">#top</a></span></p>
+    </div>
+  </footer>
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src ="node_modules/headhesive/dist/headhesive.js"></script>
+      <script>
+        // Set options
+        var options = {
+            offset: '#showHere',
+            offsetSide: 'top',
+            classes: {
+                clone:   'banner--clone',
+                stick:   'banner--stick',
+                unstick: 'banner--unstick'
+            }
+        };
+        // Initialise with options
+        var banner = new Headhesive('.banner', options);
+        // Headhesive destroy
+        // banner.destroy();
+    </script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
